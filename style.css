@@ -1,0 +1,26 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    height: calc(100vh - 2em);
+    background: rgb(23, 23, 23);
+}
+
+#diff-editor {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.actions {
+    height: 2em;
+    display: flex;
+    align-items: center;
+    padding: 0.2em;
+    box-sizing: border-box;
+}
+
+label {
+    padding-right: 0.3em;
+    color: white;
+}
