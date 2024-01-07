@@ -1,7 +1,7 @@
 const text1 = "Sample text for diffing";
 const text2 = "Samp1e text for dlffing";
 
-let language = localStorage.getItem("language");
+let language = localStorage.getItem("language") === "plaintext" ;
 let inline = localStorage.getItem("inline") === "true";
 let lightTheme = localStorage.getItem("lightTheme") === "true";
 
