@@ -3,19 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Monaco Text Compare</title>
 
+    <link rel="shortcut icon" href="https://i.ibb.co/zRvn96K/personal-icon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 
     <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.35.0/min/vs/loader.js"></script>
 </head>
 <body>
-    
-    <section id="diff-editor"></section>
-    <section class="actions">
-        <label>Inline</label>
-        <input type="checkbox" class="inline-it">
+
+    <section class="top-container">
+
+        <h1>Text Compare Tool</h1>
+        <h3>made by BlueWhaleYT</h2>
+        
+        <section class="options">
+        
+            <div class="option">
+                <input type="checkbox" id="light-theme">
+                <label>Light</label>
+            </div>
+        
+            <div class="option">
+                <input type="checkbox" id="inline">
+                <label>Inline</label>
+            </div>
+        
+            <div class="option">
+                <label>Language</label>
+                <select id="language" name="language">
+                    <option value="c">C</option>
+                    <option value="cpp">C++</option>
+                    <option value="csharp">C#</option>
+                    <option value="css">CSS</option>
+                    <option value="html">HTML</option>
+                    <option value="java">Java</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="json">JSON</option>
+                    <option value="objective-c">Objective C</option>
+                    <option value="plaintext" selected>Plain Text</option>
+                    <option value="typescript">TypeScript</option>
+                    <option value="vb">Visual Basic</option>
+                    <option value="xml">XML</option>
+                    <option value="yaml">YAML</option>
+                </select>
+            </div>
+        
+        </section>
+
     </section>
+
+    <section id="diff-editor"></section>
 
     <script src="script.js"></script>
 

@@ -3,7 +3,23 @@ html {
     padding: 0;
     margin: 0;
     height: calc(100vh - 2em);
-    background: rgb(23, 23, 23);
+    background-color: black;
+    color: white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+}
+
+label {
+    padding-right: 0.3em;
+    color: white;
+}
+
+input[type=checkbox],
+select {
+    transform: scale(1.5);
+    margin-left: 20px;
 }
 
 #diff-editor {
@@ -12,15 +28,20 @@ html {
     box-sizing: border-box;
 }
 
-.actions {
-    height: 2em;
+.options {
     display: flex;
     align-items: center;
-    padding: 0.2em;
+    padding: 10px;
     box-sizing: border-box;
 }
 
-label {
-    padding-right: 0.3em;
+.option {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 2em;
+}
+
+.top-container {
+    background-color: black;
     color: white;
 }
